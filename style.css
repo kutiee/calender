@@ -1,0 +1,65 @@
+/* siteHeader */
+.siteHeader {
+    padding: 4px 20px;
+    
+}
+.siteHeader > h1 {
+    font-size: 32px;
+}
+/* end */
+/* calender */
+.calendar {
+    background-color: white;
+    margin: 16px;
+    border-radius: 24px;
+    color: rgb(56, 51, 55);
+}
+/* BEM 命名法 */
+.calendar-header {
+    text-align: center;
+    padding: 8px 0;
+    font-size: 18px;}
+.calendar-header > time {
+}
+.calendar-weekdays {
+display: flex;
+}
+.calendar-weekdays > li {
+    width: 14.2857%;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+}
+.calendar-days {
+    display: flex;
+    flex-wrap: wrap;
+}
+.calendar-days > li {
+    width: 14.2857%;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+}
+.calendar-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+/* A里所有button 父元素的所有儿子 */
+.calendar-actions button{
+font-size: 12px;
+height: 2em;
+padding: 0 8px;
+}
+.calendar-actions-left {
+    display: flex;
+}
+/* A的直接子元素B */
+.calendar-actions-left > button {
+}
+.calendar-actions-right {
+    display: flex;
+}
+.calendar-actions-right > button {
+}
+/* end */ ;
